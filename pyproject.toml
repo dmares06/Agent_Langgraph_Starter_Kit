@@ -16,6 +16,8 @@ dependencies = [
     "mcp>=1.9.1",
     "supabase>=2.15.1",
     "aiohttp>=3.8.0",
+    "typing-extensions>=4.0.0",
+    "python-dotenv>=1.0.0",
 ]
 
 [tool.setuptools]
