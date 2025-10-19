@@ -1,5 +1,6 @@
-from .agent import graph
-
-__all__ = ["graph"]
+"""
+Tools Agent Package
+Root package for all tools agent implementations.
+"""
 
 __version__ = "0.1.0"

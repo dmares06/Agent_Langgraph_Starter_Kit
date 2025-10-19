@@ -1,27 +1,26 @@
 [project]
-name = "tools_agent"
+name = "meal_outpost_agent"
 version = "0.1.0"
-description = "LangGraph tools agent with MCP and a RAG tool"
+description = "Meal Outpost Lead Qualification Agent"
 authors = [
-    { name = "langchain-ai" }, 
+    { name = "Your Name" }, 
 ]
 requires-python = ">=3.11.0,<3.13"
 dependencies = [
     "langgraph>=0.6.2",
-    "langchain-anthropic>=0.3.18",
     "langchain-core>=0.3.72",
     "langchain-openai>=0.3.28",
     "pydantic==2.11.3",
     "langchain>=0.3.27",
-    "mcp>=1.9.1",
-    "supabase>=2.15.1",
-    "aiohttp>=3.8.0",
-    "typing-extensions>=4.0.0",
     "python-dotenv>=1.0.0",
+    "supabase>=2.0.0",
+    "langgraph-sdk>=0.1.0",
+    "aiohttp>=3.8.0",
+    "mcp>=1.0.0",
 ]
 
 [tool.setuptools]
-packages = ["tools_agent"]
+packages = ["tools_agent", "tools_agent.meal_outpost", "tools_agent.utils"]
 
 [dependency-groups]
 dev = [
